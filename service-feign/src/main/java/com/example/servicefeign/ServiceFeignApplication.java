@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients // 开启feign功能（默认集成ribbon，默认实现负载均衡）
 public class ServiceFeignApplication {
 
 	public static void main(String[] args) {

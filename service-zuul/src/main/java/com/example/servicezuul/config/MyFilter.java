@@ -19,16 +19,19 @@ public class MyFilter extends ZuulFilter {
 
     private static Logger log = LoggerFactory.getLogger(MyFilter.class);
 
+    // pre：路由之前 routing:路由之时 post:路由之后
     @Override
     public String filterType() {
         return "pre";
     }
 
+    // 过滤的顺序
     @Override
     public int filterOrder() {
         return 0;
     }
 
+    // 可以写逻辑判断，是否要过滤，为true表示永远过滤
     @Override
     public boolean shouldFilter() {
         return true;

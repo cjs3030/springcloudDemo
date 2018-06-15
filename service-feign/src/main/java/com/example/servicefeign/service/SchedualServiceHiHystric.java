@@ -3,7 +3,7 @@ package com.example.servicefeign.service;
 import org.springframework.stereotype.Component;
 
 /**
- * Description
+ * Description 异常时，熔断处理
  * Create By   Patrick Leee
  * CreateTime  2018/4/3 下午2:40
  * UpdateTime  2018/4/3 下午2:40

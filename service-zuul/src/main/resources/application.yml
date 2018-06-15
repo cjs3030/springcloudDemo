@@ -1,12 +1,16 @@
+# 注册中心地址
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+# 端口地址
 server:
   port: 8769
+# 服务在注册中心的名称
 spring:
   application:
     name: service-zuul
+# 路由转发设置
 zuul:
   routes:
     api-a:

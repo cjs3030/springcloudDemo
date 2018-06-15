@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Description
+ * Description 暴露对外接口
  * Create By   Patrick Leee
  * CreateTime  2018/4/3 下午2:00
  * UpdateTime  2018/4/3 下午2:00

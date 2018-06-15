@@ -19,7 +19,9 @@ public class ServiceRibbonApplication {
         SpringApplication.run(ServiceRibbonApplication.class, args);
     }
 
+    // ioc注入一个bean:restTemplate
     @Bean
+    // 开启负载均衡
     @LoadBalanced
     RestTemplate restTemplate() {
         return new RestTemplate();
