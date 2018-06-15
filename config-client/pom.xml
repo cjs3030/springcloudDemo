@@ -57,6 +57,7 @@
 			<artifactId>spring-retry</artifactId>
 		</dependency>
 
+		<!--消息总线依赖-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
